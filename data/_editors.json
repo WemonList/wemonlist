@@ -1,27 +1,27 @@
 [
     {
         "role": "owner",
-        "name": "List Owner",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "name": "-Neri.",
+        "link": "https://www.youtube.com/@nersaurus"
     },
     {
         "role": "admin",
-        "name": "List Admin",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "name": "ClearestBrick56",
+        "link": "https://www.youtube.com/@clearestbrick"
     },
     {
         "role": "helper",
-        "name": "List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "name": "ClearestBrick56",
+        "link": "https://www.youtube.com/@clearestbrick"
     },
     {
         "role": "trial",
-        "name": "Trial List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "name": "ClearestBrick56",
+        "link": "https://www.youtube.com/@clearestbrick"
     },
     {
         "role": "dev",
-        "name": "List Coder",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "name": "-Neri.",
+        "link": "https://www.youtube.com/@nersaurus"
     }
 ]
