@@ -11,10 +11,10 @@
 }
 
 .btn:nth-child(odd) {
-    background-color: var(--color-primary);
+    background-color: var(--color-primary) !important;
 }
 .btn:nth-child(even) {
-    background-color: var(--color-secondary);
+    background-color: var(--color-secondary) !important;
 }
 
 
