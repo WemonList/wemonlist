@@ -2,7 +2,7 @@
     border: none;
     cursor: pointer;
     font: inherit;
-    padding: 1rem;
+    padding: 0.25rem;
     margin: 0;
     background-color: var(--color-primary);
     color: var(--color-on-primary);
