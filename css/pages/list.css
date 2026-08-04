@@ -40,11 +40,11 @@
     background-color: var(--color-background-hover);
     color: var(--color-on-background-hover);
 }
-.page-list .list .level.active button :nth-child(odd) {
+.page-list .list .level.active button:nth-child(odd) {
     background-color: var(--color-primary);
     color: var(--color-on-primary);
 }
-.page-list .list .level.active button :nth-child(even) {
+.page-list .list .level.active button:nth-child(even) {
     background-color: var(--color-secondary);
     color: var(--color-on-primary);
 }
