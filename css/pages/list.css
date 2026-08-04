@@ -40,8 +40,12 @@
     background-color: var(--color-background-hover);
     color: var(--color-on-background-hover);
 }
-.page-list .list .level.active button {
+.page-list .list .level.active button:nth-child(2n) {
     background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+.page-list .list .level.active button:nth-child(2n+1) {
+    background-color: var(--color-secondary);
     color: var(--color-on-primary);
 }
 .page-list .level-container .level {
