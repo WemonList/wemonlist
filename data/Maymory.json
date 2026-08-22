@@ -7,6 +7,12 @@
     "verification": "https://youtu.be/jMbn80mbd3E",
     "percentToQualify": "100",
     "password": "",
-    "records": [       
+    "records": [
+            {
+            "user": "ImaOrangeTwitch",
+            "link": "https://youtu.be/KhOV_GJ22Nc",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
