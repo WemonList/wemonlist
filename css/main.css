@@ -24,9 +24,10 @@ header.dark {
 }
 
 html {
-    blinker {
-        color: transparent;
-    }
+    word-wrap: break-word;
+    hyphenate-character: auto;
+    caret-color: transparent;
+    scroll-behavior: smooth;
 }
 
 html,
