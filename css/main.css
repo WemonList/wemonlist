@@ -23,6 +23,12 @@ header.dark {
     --color-on-error: white;
 }
 
+html {
+    blinker {
+        color: transparent;
+    }
+}
+
 html,
 body {
     height: 100%;
