@@ -1,8 +1,12 @@
+@Pusab {
+    font-family: "Pusab", sans-serif;
+    src: url("../assets/Pusab.otf");
+}
+
 h1,
 .type-h1,
 .type-headline-lg {
-    font-family: "Pusab", sans-serif;
-    src: url("../assets/Pusab.otf");
+    font-family: "Pusab";
     font-size: 51.4285714286px;
     line-height: 52px;
     font-weight: 700;
