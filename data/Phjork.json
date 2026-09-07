@@ -7,6 +7,12 @@
     "verification": "https://youtu.be/PjMhxbHr900",
     "percentToQualify": "100",
     "password": "",
-    "records": [       
+    "records": [
+        {
+            "user": "SpaceUS",
+            "link": "https://medal.tv/games/geometry-dash/clips/nnYHeKLtH7AUiVETu?invite=cr-MSxwcXIsNDQzMTY2NzM0",
+            "percent": 100,
+            "hz": 2400
+        }   
     ]
 }
