@@ -12,13 +12,19 @@
             "user": "SpaceUS",
             "link": "https://medal.tv/games/geometry-dash/clips/nnYh8Nc4P7uqNecXl?invite=cr-MSxIaHYsNDQzMTY2NzM0",
             "percent": 100,
-            "hz": 2400
+            "hz": 240
         },
         {
             "user": "ZivZav10",
             "link": "https://www.youtube.com/watch?v=Mr497dCKp-U",
             "percent": 100,
             "hz": 120
-        } 
+        },
+        {
+         "user": "SimplyAshGD",
+            "link": "https://youtu.be/ied4p0j67kw",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
