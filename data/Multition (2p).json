@@ -1,0 +1,18 @@
+{
+    "id": 60660086,
+    "name": "Multition (2p)",
+    "author": "Mulpan",
+    "creators": ["Mulpan", "Partition"],
+    "verifier": "SimplyAshGD",
+    "verification": "https://youtu.be/ebj_8zY1gYo",
+    "percentToQualify": "100",
+    "password": "",
+    "records": [
+        {
+            "user": "-Nori. (ネリ)",
+            "link": "https://youtu.be/ebj_8zY1gYo",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
