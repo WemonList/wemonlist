@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "",
     "records": [
-    ]
+        {
+            "user": "ImaorangeTwitch",
+            "link": "https://youtu.be/9H5x44E1PVw?si=F26fuzMj6O6sCvG4",
+            "percent": 100,
+            "hz": 240
+        }
+    ] 
 }
