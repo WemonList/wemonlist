@@ -67,8 +67,8 @@ header {
 @media screen and (min-width: 1366px) {
     header {
         display: flex;
-        align-items: center;
-        justify-content: space-around;
+        align-items: space-around;
+        justify-content: center;
         padding-inline: 0rem 1rem 0rem 1rem;
     }
 }
