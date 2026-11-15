@@ -37,7 +37,7 @@ export async function fetchList() {
 }
 
 export async function fetchPList() {
-    const listResult = await fetch(`${dir}/_plist.json`);
+    const listResult = await fetch(`${dir}/_listp.json`);
     try {
         const list = await listResult.json();
         return await Promise.all(
