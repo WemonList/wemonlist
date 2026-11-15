@@ -70,6 +70,7 @@ header {
         align-items: space-around;
         justify-content: center;
         padding-inline: 0px 16px 0px 16px;
+        width: fill-available;
     }
 }
 header .logo {
