@@ -1,4 +1,3 @@
-<!DOCTYPE javascript>
 import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
