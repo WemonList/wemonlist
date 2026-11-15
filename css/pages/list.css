@@ -2,9 +2,11 @@
 .page-list .level-container,
 .page-list .meta-container {
     padding-block: 2rem;
+    padding-top: 7rem;
 }
 .page-list .list-container {
     padding-inline: 1rem;
+    padding-top: 6rem;
 }
 .page-list .meta-container {
     padding-right: 2rem;
@@ -59,6 +61,8 @@
 }
 .page-list .level-container .level .video {
     aspect-ratio: 16/9;
+    border-radius: 1rem;
+    corner-shape: squircle;
 }
 .page-list .level-container .level .stats {
     display: flex;
