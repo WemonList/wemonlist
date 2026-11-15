@@ -158,13 +158,13 @@ export default {
         this.editors = await fetchEditors();
 
         // Error handling
-        if (!this.plist) {
+        if (!this.list) {
             this.errors = [
                 "Failed to load list. Retry in a few minutes or notify list staff.",
             ];
         } else {
             this.errors.push(
-                ...this.plist
+                ...this.list
                     .filter(([_, err]) => err)
                     .map(([_, err]) => {
                         return `Failed to load level. (${err}.json)`;
