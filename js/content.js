@@ -39,9 +39,9 @@ export async function fetchList() {
 export async function fetchPList() {
     const listResult = await fetch(`${dir}/_listp.json`);
     try {
-        const list = await listResult.json();
+        const listP = await listResult.json();
         return await Promise.all(
-            list.map(async (path, rank) => {
+            listP.map(async (path, rank) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
                 try {
                     const level = await levelResult.json();
@@ -78,7 +78,7 @@ export async function fetchEditors() {
 }
 
 export async function fetchLeaderboard() {
-    const list = await fetchList() || await fetchplist();
+    const list = await fetchList() || await fetchPList();
 
     const scoreMap = {};
     const errs = [];
