@@ -1,7 +1,7 @@
 import { store } from "../main.js";
 import { embed } from "../util.js";
 import { score } from "../score.js";
-import { fetchEditors, fetchPlist } from "../content.js";
+import { fetchEditors, fetchplist } from "../content.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -154,7 +154,7 @@ export default {
     },
     async mounted() {
         // Hide loading spinner
-        this.plist = await fetchPlist();
+        this.plist = await fetchplist();
         this.editors = await fetchEditors();
 
         // Error handling
