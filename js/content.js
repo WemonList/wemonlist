@@ -36,7 +36,7 @@ export async function fetchList() {
     }
 }
 
-export async function fetchplist() {
+export async function fetchPList() {
     const listResult = await fetch(`${dir}/_plist.json`);
     try {
         const list = await listResult.json();
