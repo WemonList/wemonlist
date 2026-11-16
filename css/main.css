@@ -14,6 +14,7 @@ main.dark,
 header.dark {
     color-scheme: dark;
     --color-background: #1c1b1f;
+    --color-background-transparent: rgba(28, 27, 31, 0.9);
     --color-background-dark: #100f13;
     --color-shadow: rgba(35, 11, 11, 0.5);
     --color-on-background: white;
@@ -76,11 +77,15 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-color: var(--color-background);
+    background-image: url("../assets/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(0.5rem);
 }
 
 header,
 main {
-    background-color: var(--color-background);
     color: var(--color-on-background);
     display: grid;
     grid-template-columns: minmax(16rem, 1fr) minmax(16rem, 2fr) minmax(
