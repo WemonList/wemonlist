@@ -81,7 +81,7 @@ body {
     background-image: url("../assets/bg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    backdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(1rem);
 }
 
 header,
