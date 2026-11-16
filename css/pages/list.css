@@ -92,6 +92,7 @@
     aspect-ratio: 16/9;
     border-radius: 1rem;
     corner-shape: squircle;
+    box-shadow: 0px 0px 1rem var(--color-shadow);
 }
 .page-list .level-container .level .stats {
     display: flex;
