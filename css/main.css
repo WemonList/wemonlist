@@ -4,7 +4,7 @@
     --color-background-hover: #eee;
     --color-on-background-hover: black;
     --color-primary: #ffbf9f;
-    --color-primary-transparent: rgba(255, 240, 227, 0.5);
+    --color-primary-transparent: rgba(255, 240, 227, 0.333);
     --color-on-primary: black;
     --color-error: #de0000;
     --color-on-error: white;
@@ -14,11 +14,14 @@ main.dark,
 header.dark {
     color-scheme: dark;
     --color-background: #1c1b1f;
+    --color-background-dark: #100f13;
+    --color-shadow: rgba(35, 11, 11, 0.5);
     --color-on-background: white;
     --color-background-hover: #27262c;
     --color-on-background-hover: white;
     --color-primary: #ff5500;
     --color-primary-transparent: rgba(255, 85, 0, 0.5);
+    --color-primary-dark: rgb(100, 33, 0);
     --color-primary-disabled: #1f213c;
     --color-on-primary: white;
     --color-error: #de0000;
@@ -32,21 +35,25 @@ header.dark {
 
 ::-webkit-scrollbar-button {
     background-color: var(--color-background);
-    height: 0.5rem;
+    height: 0.666rem;
 }
 
 ::-webkit-scrollbar-track-piece {
     background-color: var(--color-background-hover);
+    box-shadow:0px 0px 1rem var(--color-shadow);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
     background: var(--color-primary-transparent);
+    box-shadow: 0px 0px 10rem -10rem var(--color-primary-dark) , 0px 0px 0.25rem var(--color-primary) inset, 0px 0px 1rem var(--color-shadow);
     border-radius: 5px;
+    transition: 250ms;
 }
 
 ::-webkit-scrollbar-thumb:hover {
     background: var(--color-primary);
+    transition: 250ms;
 }
 
 html {
@@ -87,15 +94,17 @@ header {
     position: absolute;
     right: 0;
     display: flex;
+    justify-content: space-between;
     padding: 0rem 1rem 0rem 1rem;
-    margin: 1rem 1rem 0rem 1rem;
-    width: calc(100vw - 2rem);
-    border-radius: 1rem;
+    margin: 1rem 1rem 0rem 2rem;
+    width: calc(100vw - 2.666rem);
+    border-radius: 1.5rem;
     height: 4rem;
     backdrop-filter: blur(0.5rem);
     background-color: var(--color-primary-transparent);
     border: 1px solid var(--color-primary);
     color: var(--color-on-primary);
+    box-shadow: 0px 0px 10rem -10rem var(--color-primary-dark) , 0px 0px 0.25rem var(--color-primary) inset, 0px 0px 1rem var(--color-shadow);
     corner-shape: squircle;
 }
 @media screen and (min-width: 1366px) {

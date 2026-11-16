@@ -1,5 +1,7 @@
 .nav {
     display: flex;
+    justify-content: center;
+    width: fit-content;
     column-gap: 2rem;
 }
 .nav .nav__tab {
@@ -16,15 +18,19 @@
 .nav .nav__tab:hover {
     border-color: var(--color-on-primary);
 }
-.nav .nav__actions {
-    flex: 1;
+.nav__actions {
     display: flex;
+    width: max-content;
+    height: 100%;
+    gap: 1rem;
     align-items: center;
     justify-content: flex-end;
 }
-.nav .nav__actions .nav__icon {
+.nav__actions .nav__icon {
     height: 3rem;
     width: 3rem;
+    gap: 1rem;
+    padding: 0.5rem;
     border: none;
     background-color: transparent;
     border-radius: 50%;
@@ -38,17 +44,5 @@
     background-color: rgba(255, 255, 255, 0.2);
 }
 .nav .nav__actions .nav__icon img {
-    height: 1.5rem;
-}
-.nav .nav__actions .nav__cta {
-    margin-left: 1rem;
-    padding: 1rem;
-    background-color: var(--color-on-primary);
-    color: var(--color-primary);
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 0.5rem 0 rgba(0, 0, 102, 0.5);
-    transition: transform 100ms ease;
-}
-.nav .nav__actions .nav__cta:hover:not(:active) {
-    transform: translateY(-2px);
+    width: 1.5rem !important;
 }
