@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "",
     "records": [
+    {
+            "user": "SpaceUS",
+            "link": "https://medal.tv/games/geometry-dash/clips/nZ0uZk9PrvJ3RQJ-l?invite=cr-MSw4MHgsNDQzMTY2NzM0",
+            "percent": 100,
+            "hz": 2300
+        }
     ]
 } 
