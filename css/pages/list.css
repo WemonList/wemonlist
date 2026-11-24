@@ -69,6 +69,7 @@
     border: 1px solid var(--color-background-hover);
     box-shadow: 0px 0px 1rem var(--color-background) inset, 0px 0px 1rem var(--color-shadow);
     border-radius: 2.5rem;
+    height: auto;
     corner-shape: squircle;
     grid-column-start: 2;
     grid-column-end: 4;
