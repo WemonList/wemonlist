@@ -40,7 +40,7 @@ export default {
                 <div class="level" v-if="level">
                 <h1>{{ level.name }}</h1>
                 <div class="faggot">
-                <div style="display: flex; flex-direction: column; justify-content: space-between; padding: 1rem 0rem;">
+                <div style="display: flex; flex-direction: column; justify-content: top; gap: 1rem; padding: 1rem 0rem;">
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <ul class="stats">
                         <li>
