@@ -38,23 +38,27 @@ export default {
             </div>
             <div class="level-container">
                 <div class="level" v-if="level">
-                    <h1>{{ level.name }}</h1>
+                <h1>{{ level.name }}</h1>
+                <div class="faggot">
+                <div style="display: flex; flex-direction: column; justify-content: space-between; padding: 1rem 0rem;">
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
-                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
-                            <div class="type-title-sm">Points when completed</div>
-                            <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
+                        <div class="type-title-sm">ID</div>
+                        <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">ID</div>
-                            <p>{{ level.id }}</p>
+                        <div class="type-title-sm">Points</div>
+                        <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                        <div class="type-title-sm">Password</div>
+                        <p>{{ level.password || 'Free' }}</p>
                         </li>
                     </ul>
+                </div>
+                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    </div>
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>

@@ -97,18 +97,28 @@
     border-radius: 1rem;
     corner-shape: squircle;
     box-shadow: 0px 0px 1rem var(--color-shadow);
+    width: calc(100vw - 1000px);
 }
-.page-list .level-container .level .stats {
+.page-list .level-container .level .faggot {
     display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    gap: 3rem;
+    width: inherit;
+}
+.page-list .level-container .level .faggot .stats {
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
-    text-align: center;
-    gap: 2rem;
+    text-align: left;
+    gap: 1rem;
 }
 .page-list .level-container .level .stats li {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+    flex-direction: row;
+    align-items: space-between;
+    gap: 2rem;
 }
 .page-list .level-container .level .records {
     table-layout: fixed;
