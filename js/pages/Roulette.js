@@ -10,7 +10,7 @@ export default {
         <main v-if="loading">
             <Spinner></Spinner>
         </main>
-        <main v-else class="page-roulette">
+        <main v-else class="page-roulette" style="background-color: var(--color-background-transparent);">
             <div class="sidebar">
                 <p class="type-label-md" style="color: #aaa">
                     Shameless copy of the Extreme Demon Roulette by <a href="https://matcool.github.io/extreme-demon-roulette/" target="_blank">matcool</a>.
@@ -36,6 +36,13 @@ export default {
                         <Btn :disabled="!isActive" @click.native.prevent="onExport">Export</Btn>
                     </div>
                 </form>
+                <div class="toasts-container">
+                    <div class="toasts">
+                        <div v-for="toast in toasts" class="toast">
+                            <p>{{ toast }}</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <section class="levels-container">
                 <div class="levels">
@@ -64,7 +71,7 @@ export default {
                             <form class="actions" v-if="!givenUp">
                                 <input type="number" v-model="percentage" :placeholder="placeholder" :min="currentPercentage + 1" max=100>
                                 <Btn @click.native.prevent="onDone">Done</Btn>
-                                <Btn @click.native.prevent="onGiveUp" style="background-color: #e91e63;">Give Up</Btn>
+                                <Btn @click.native.prevent="onGiveUp" style="background-color: #cd2c00;">Give Up</Btn>
                             </form>
                         </div>
                         <!-- Results -->
@@ -90,13 +97,6 @@ export default {
                     </template>
                 </div>
             </section>
-            <div class="toasts-container">
-                <div class="toasts">
-                    <div v-for="toast in toasts" class="toast">
-                        <p>{{ toast }}</p>
-                    </div>
-                </div>
-            </div>
         </main>
     `,
     data: () => ({

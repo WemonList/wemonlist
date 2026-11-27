@@ -21,8 +21,8 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
-            <div class="meta-container">
-                <div class="meta">
+            <div class="meta-container" style="width: 100vw;">
+                <div class="meta" style="padding-left: 3rem;">
                     <div class="errors" v-show="errors.length > 0">
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>

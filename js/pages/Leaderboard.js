@@ -18,6 +18,7 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-leaderboard-container">
+        <div style="background-color: var(--color-background-transparent); width: 100wv; height: 100vh;">
             <div class="page-leaderboard">
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
@@ -90,6 +91,7 @@ export default {
                     </div>
                 </div>
             </div>
+        </div>
         </main>
     `,
     computed: {
